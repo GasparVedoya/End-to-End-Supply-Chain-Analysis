@@ -1,0 +1,2 @@
+Average Supplier Score = 
+AVERAGE ( 'MasterScorecard'[Supplier_Score Score] )
