@@ -6,7 +6,7 @@ This module focuses on classifying suppliers based on their strategic importance
 
 The goal is to support sourcing strategy decisions by identifying which vendors are:
 
-- Strategic
+- Critical
 - Bottleneck
 - Leverage
 - Routine
@@ -33,10 +33,10 @@ Measures operational risk based on factors such as:
 
 Each supplier is scored and plotted on a 2x2 sourcing matrix:
 
-|                     | High Complexity | Low Complexity |
+|                     | Low Complexity | High Complexity |
 |---------------------|-----------------|----------------|
-| **High Importance** | Strategic      | Leverage      |
-| **Low Importance**  | Bottleneck     | Routine       |
+| **High Importance** | Leverage     | Critical      |
+| **Low Importance**  | Routine     | Bottleneck       |
 
 ---
 
